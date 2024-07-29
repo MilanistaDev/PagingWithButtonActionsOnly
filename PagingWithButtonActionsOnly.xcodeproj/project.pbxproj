@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		19F995B82C554206003F989B /* PagingWithButtonActionsOnlyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F995B72C554206003F989B /* PagingWithButtonActionsOnlyApp.swift */; };
-		19F995BA2C554206003F989B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F995B92C554206003F989B /* ContentView.swift */; };
 		19F995BC2C554209003F989B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19F995BB2C554209003F989B /* Assets.xcassets */; };
 		19F995BF2C554209003F989B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19F995BE2C554209003F989B /* Preview Assets.xcassets */; };
 		19F995C82C5815D7003F989B /* CustomTabItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F995C72C5815D7003F989B /* CustomTabItems.swift */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		19F995B42C554206003F989B /* PagingWithButtonActionsOnly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PagingWithButtonActionsOnly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19F995B72C554206003F989B /* PagingWithButtonActionsOnlyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingWithButtonActionsOnlyApp.swift; sourceTree = "<group>"; };
-		19F995B92C554206003F989B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		19F995BB2C554209003F989B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19F995BE2C554209003F989B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		19F995C72C5815D7003F989B /* CustomTabItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabItems.swift; sourceTree = "<group>"; };
@@ -57,7 +55,6 @@
 			children = (
 				19F995B72C554206003F989B /* PagingWithButtonActionsOnlyApp.swift */,
 				19F995C92C5815D7003F989B /* MainView.swift */,
-				19F995B92C554206003F989B /* ContentView.swift */,
 				19F995C72C5815D7003F989B /* CustomTabItems.swift */,
 				19F995BB2C554209003F989B /* Assets.xcassets */,
 				19F995BD2C554209003F989B /* Preview Content */,
@@ -143,7 +140,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19F995BA2C554206003F989B /* ContentView.swift in Sources */,
 				19F995CA2C5815D7003F989B /* MainView.swift in Sources */,
 				19F995B82C554206003F989B /* PagingWithButtonActionsOnlyApp.swift in Sources */,
 				19F995C82C5815D7003F989B /* CustomTabItems.swift in Sources */,
