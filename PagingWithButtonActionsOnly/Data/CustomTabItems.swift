@@ -9,19 +9,19 @@ import Foundation
 
 enum CustomTabItems: Int, CaseIterable {
     case tabPaging
+    case scrollViewReader
     case naviPaging
-    case offsetPaging
 
     var title: String {
         switch self {
         case .tabPaging:
             return "Tab"
 
+        case .scrollViewReader:
+            return "ScrollToX"
+
         case .naviPaging:
             return "Navi"
-
-        case .offsetPaging:
-            return "OffSet"
         }
     }
 
