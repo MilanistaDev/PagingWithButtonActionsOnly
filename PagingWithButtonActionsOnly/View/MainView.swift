@@ -11,13 +11,25 @@ struct MainView: View {
     var body: some View {
         TabView {
             ForEach(CustomTabItems.allCases, id: \.self) { item in
-                Text(item.title)
-                    .tabItem {
-                        VStack {
-                            Image(systemName: item.image)
-                            Text(item.title)
+                switch item {
+                case .tabPaging:
+                    TabPagingView()
+                        .tabItem {
+                            VStack {
+                                Image(systemName: item.image)
+                                Text(item.title)
+                            }
                         }
-                    }
+
+                default:
+                    Text(item.title)
+                        .tabItem {
+                            VStack {
+                                Image(systemName: item.image)
+                                Text(item.title)
+                            }
+                        }
+                }
             }
         }
     }
