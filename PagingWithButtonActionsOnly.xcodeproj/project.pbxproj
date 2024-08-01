@@ -15,6 +15,7 @@
 		19F995CE2C5815D7003F989B /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F995CD2C5815D7003F989B /* Content.swift */; };
 		19F995D02C5815D7003F989B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F995CF2C5815D7003F989B /* ContentView.swift */; };
 		19F995D32C5BD771003F989B /* TabPagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F995D22C5BD771003F989B /* TabPagingView.swift */; };
+		19F995D62C5BD9A0003F989B /* TabPagingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F995D52C5BD9A0003F989B /* TabPagingViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		19F995CD2C5815D7003F989B /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		19F995CF2C5815D7003F989B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		19F995D22C5BD771003F989B /* TabPagingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPagingView.swift; sourceTree = "<group>"; };
+		19F995D52C5BD9A0003F989B /* TabPagingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPagingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				19F995B72C554206003F989B /* PagingWithButtonActionsOnlyApp.swift */,
 				19F995CB2C5815D7003F989B /* View */,
+				19F995D42C5BD97F003F989B /* ViewModel */,
 				19F995CC2C5815D7003F989B /* Data */,
 				19F995BB2C554209003F989B /* Assets.xcassets */,
 				19F995BD2C554209003F989B /* Preview Content */,
@@ -93,6 +96,14 @@
 				19F995CD2C5815D7003F989B /* Content.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		19F995D42C5BD97F003F989B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				19F995D52C5BD9A0003F989B /* TabPagingViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19F995CA2C5815D7003F989B /* MainView.swift in Sources */,
+				19F995D62C5BD9A0003F989B /* TabPagingViewModel.swift in Sources */,
 				19F995D02C5815D7003F989B /* ContentView.swift in Sources */,
 				19F995B82C554206003F989B /* PagingWithButtonActionsOnlyApp.swift in Sources */,
 				19F995C82C5815D7003F989B /* CustomTabItems.swift in Sources */,

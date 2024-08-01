@@ -31,6 +31,6 @@ let sampleContents: [Contents] = [
         pageName: "PAGE3",
         textColor: "#FFFFFF",
         backColor: "#9b7cb6",
-        columns: [.pink, .orange, .blue]
+        columns: [.yellow, .orange, .blue]
     )
 ]
