@@ -51,7 +51,23 @@ enum PageSwitchingButtonType: CaseIterable {
         }
     }
 
-    var cornerRadius: CGFloat {
-        return 8.0
+    var leadingCornerRadius: CGFloat {
+        switch self {
+        case .left:
+            return .zero
+
+            case .right:
+                return 8.0
+        }
+    }
+
+    var trailingCornerRadius: CGFloat {
+        switch self {
+        case .left:
+            return 8.0
+
+        case .right:
+            return .zero
+        }
     }
 }
