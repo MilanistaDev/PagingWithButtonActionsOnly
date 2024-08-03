@@ -17,6 +17,7 @@
 		19F995D32C5BD771003F989B /* TabPagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F995D22C5BD771003F989B /* TabPagingView.swift */; };
 		19F995D62C5BD9A0003F989B /* TabPagingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F995D52C5BD9A0003F989B /* TabPagingViewModel.swift */; };
 		19F995DA2C5E4349003F989B /* PageSwitchingButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F995D92C5E4349003F989B /* PageSwitchingButtonType.swift */; };
+		19F995E12C5E560C003F989B /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F995E02C5E560C003F989B /* Color+Hex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		19F995D22C5BD771003F989B /* TabPagingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPagingView.swift; sourceTree = "<group>"; };
 		19F995D52C5BD9A0003F989B /* TabPagingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPagingViewModel.swift; sourceTree = "<group>"; };
 		19F995D92C5E4349003F989B /* PageSwitchingButtonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageSwitchingButtonType.swift; sourceTree = "<group>"; };
+		19F995E02C5E560C003F989B /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				19F995CB2C5815D7003F989B /* View */,
 				19F995D42C5BD97F003F989B /* ViewModel */,
 				19F995CC2C5815D7003F989B /* Data */,
+				19F995DF2C5E55F0003F989B /* Extension */,
 				19F995BB2C554209003F989B /* Assets.xcassets */,
 				19F995BD2C554209003F989B /* Preview Content */,
 			);
@@ -107,6 +110,14 @@
 				19F995D52C5BD9A0003F989B /* TabPagingViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		19F995DF2C5E55F0003F989B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				19F995E02C5E560C003F989B /* Color+Hex.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +198,7 @@
 				19F995C82C5815D7003F989B /* CustomTabItems.swift in Sources */,
 				19F995D32C5BD771003F989B /* TabPagingView.swift in Sources */,
 				19F995CE2C5815D7003F989B /* Content.swift in Sources */,
+				19F995E12C5E560C003F989B /* Color+Hex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
