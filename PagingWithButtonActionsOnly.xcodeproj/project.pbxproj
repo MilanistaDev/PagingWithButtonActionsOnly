@@ -16,6 +16,7 @@
 		19F995D02C5815D7003F989B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F995CF2C5815D7003F989B /* ContentView.swift */; };
 		19F995D32C5BD771003F989B /* TabPagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F995D22C5BD771003F989B /* TabPagingView.swift */; };
 		19F995D62C5BD9A0003F989B /* TabPagingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F995D52C5BD9A0003F989B /* TabPagingViewModel.swift */; };
+		19F995DA2C5E4349003F989B /* PageSwitchingButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F995D92C5E4349003F989B /* PageSwitchingButtonType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		19F995CF2C5815D7003F989B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		19F995D22C5BD771003F989B /* TabPagingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPagingView.swift; sourceTree = "<group>"; };
 		19F995D52C5BD9A0003F989B /* TabPagingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPagingViewModel.swift; sourceTree = "<group>"; };
+		19F995D92C5E4349003F989B /* PageSwitchingButtonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageSwitchingButtonType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			children = (
 				19F995C72C5815D7003F989B /* CustomTabItems.swift */,
 				19F995CD2C5815D7003F989B /* Content.swift */,
+				19F995D92C5E4349003F989B /* PageSwitchingButtonType.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19F995CA2C5815D7003F989B /* MainView.swift in Sources */,
+				19F995DA2C5E4349003F989B /* PageSwitchingButtonType.swift in Sources */,
 				19F995D62C5BD9A0003F989B /* TabPagingViewModel.swift in Sources */,
 				19F995D02C5815D7003F989B /* ContentView.swift in Sources */,
 				19F995B82C554206003F989B /* PagingWithButtonActionsOnlyApp.swift in Sources */,
