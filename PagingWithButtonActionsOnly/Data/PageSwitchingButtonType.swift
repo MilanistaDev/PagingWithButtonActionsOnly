@@ -24,10 +24,10 @@ enum PageSwitchingButtonType: CaseIterable {
     var edgeIcon: String {
         switch self {
         case .left:
-            return "Arrow_back"
+            return "chevron.left"
 
         case .right:
-            return "Arrow_forward"
+            return "chevron.right"
         }
     }
 
