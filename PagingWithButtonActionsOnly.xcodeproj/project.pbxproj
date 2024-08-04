@@ -19,6 +19,7 @@
 		19F995DA2C5E4349003F989B /* PageSwitchingButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F995D92C5E4349003F989B /* PageSwitchingButtonType.swift */; };
 		19F995E12C5E560C003F989B /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F995E02C5E560C003F989B /* Color+Hex.swift */; };
 		19F995E32C5F1725003F989B /* PageSwitchingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F995E22C5F1725003F989B /* PageSwitchingButton.swift */; };
+		19F995E52C5F1725003F989B /* PageSwitchingButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F995E42C5F1725003F989B /* PageSwitchingButtons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		19F995D92C5E4349003F989B /* PageSwitchingButtonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageSwitchingButtonType.swift; sourceTree = "<group>"; };
 		19F995E02C5E560C003F989B /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
 		19F995E22C5F1725003F989B /* PageSwitchingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageSwitchingButton.swift; sourceTree = "<group>"; };
+		19F995E42C5F1725003F989B /* PageSwitchingButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageSwitchingButtons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				19F995C92C5815D7003F989B /* MainView.swift */,
 				19F995D22C5BD771003F989B /* TabPagingView.swift */,
 				19F995CF2C5815D7003F989B /* ContentView.swift */,
+				19F995E42C5F1725003F989B /* PageSwitchingButtons.swift */,
 				19F995E22C5F1725003F989B /* PageSwitchingButton.swift */,
 			);
 			path = View;
@@ -193,6 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19F995E52C5F1725003F989B /* PageSwitchingButtons.swift in Sources */,
 				19F995CA2C5815D7003F989B /* MainView.swift in Sources */,
 				19F995E32C5F1725003F989B /* PageSwitchingButton.swift in Sources */,
 				19F995DA2C5E4349003F989B /* PageSwitchingButtonType.swift in Sources */,

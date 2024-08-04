@@ -21,6 +21,13 @@ struct TabPagingView: View {
         }
         .tabViewStyle(.page(indexDisplayMode: .never))
         .edgesIgnoringSafeArea(.top)
+        .overlay(alignment: .top) {
+            PageSwitchingButtons(
+                contents: viewModel.contents,
+                selection: $selection
+            )
+            .padding(.top, 20.0)
+        }
         .overlay {
             if viewModel.isLoading {
                 ProgressView()
