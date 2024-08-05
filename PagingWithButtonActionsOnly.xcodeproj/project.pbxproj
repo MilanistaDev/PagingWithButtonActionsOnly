@@ -91,11 +91,9 @@
 		19F995CB2C5815D7003F989B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				19F995E62C5F1725003F989B /* Common */,
 				19F995C92C5815D7003F989B /* MainView.swift */,
 				19F995D22C5BD771003F989B /* TabPagingView.swift */,
-				19F995CF2C5815D7003F989B /* ContentView.swift */,
-				19F995E42C5F1725003F989B /* PageSwitchingButtons.swift */,
-				19F995E22C5F1725003F989B /* PageSwitchingButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -124,6 +122,16 @@
 				19F995E02C5E560C003F989B /* Color+Hex.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		19F995E62C5F1725003F989B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				19F995CF2C5815D7003F989B /* ContentView.swift */,
+				19F995E42C5F1725003F989B /* PageSwitchingButtons.swift */,
+				19F995E22C5F1725003F989B /* PageSwitchingButton.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
