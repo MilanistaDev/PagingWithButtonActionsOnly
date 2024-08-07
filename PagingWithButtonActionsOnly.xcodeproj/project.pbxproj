@@ -20,6 +20,7 @@
 		19F995E12C5E560C003F989B /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F995E02C5E560C003F989B /* Color+Hex.swift */; };
 		19F995E32C5F1725003F989B /* PageSwitchingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F995E22C5F1725003F989B /* PageSwitchingButton.swift */; };
 		19F995E52C5F1725003F989B /* PageSwitchingButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F995E42C5F1725003F989B /* PageSwitchingButtons.swift */; };
+		19F995E92C636AAB003F989B /* ScrollViewReaderPagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F995E82C636AAB003F989B /* ScrollViewReaderPagingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		19F995E02C5E560C003F989B /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
 		19F995E22C5F1725003F989B /* PageSwitchingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageSwitchingButton.swift; sourceTree = "<group>"; };
 		19F995E42C5F1725003F989B /* PageSwitchingButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageSwitchingButtons.swift; sourceTree = "<group>"; };
+		19F995E82C636AAB003F989B /* ScrollViewReaderPagingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderPagingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				19F995E62C5F1725003F989B /* Common */,
 				19F995C92C5815D7003F989B /* MainView.swift */,
 				19F995D22C5BD771003F989B /* TabPagingView.swift */,
+				19F995E82C636AAB003F989B /* ScrollViewReaderPagingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				19F995DA2C5E4349003F989B /* PageSwitchingButtonType.swift in Sources */,
 				19F995D62C5BD9A0003F989B /* TabPagingViewModel.swift in Sources */,
 				19F995D02C5815D7003F989B /* ContentView.swift in Sources */,
+				19F995E92C636AAB003F989B /* ScrollViewReaderPagingView.swift in Sources */,
 				19F995B82C554206003F989B /* PagingWithButtonActionsOnlyApp.swift in Sources */,
 				19F995C82C5815D7003F989B /* CustomTabItems.swift in Sources */,
 				19F995D32C5BD771003F989B /* TabPagingView.swift in Sources */,

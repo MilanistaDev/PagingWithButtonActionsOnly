@@ -21,6 +21,15 @@ struct MainView: View {
                             }
                         }
 
+                case .scrollViewReader:
+                    ScrollViewReaderPagingView()
+                        .tabItem {
+                            VStack {
+                                Image(systemName: item.image)
+                                Text(item.title)
+                            }
+                        }
+
                 default:
                     Text(item.title)
                         .tabItem {
