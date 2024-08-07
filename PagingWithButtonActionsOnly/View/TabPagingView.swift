@@ -16,6 +16,7 @@ struct TabPagingView: View {
             ForEach(viewModel.contents.indices, id: \.self) { index in
                 ContentView(data: viewModel.contents[index].columns)
                     .tag(index)
+                    .gesture(DragGesture())
                     .ignoresSafeArea()
             }
         }
