@@ -10,7 +10,6 @@ import Foundation
 enum CustomTabItems: Int, CaseIterable {
     case tabPaging
     case scrollViewReader
-    case naviPaging
 
     var title: String {
         switch self {
@@ -19,9 +18,6 @@ enum CustomTabItems: Int, CaseIterable {
 
         case .scrollViewReader:
             return "ScrollToX"
-
-        case .naviPaging:
-            return "Navi"
         }
     }
 

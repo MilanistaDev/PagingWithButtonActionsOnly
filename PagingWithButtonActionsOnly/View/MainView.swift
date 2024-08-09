@@ -29,15 +29,6 @@ struct MainView: View {
                                 Text(item.title)
                             }
                         }
-
-                case .naviPaging:
-                    NaviView()
-                        .tabItem {
-                            VStack {
-                                Image(systemName: item.image)
-                                Text(item.title)
-                            }
-                        }
                 }
             }
         }
