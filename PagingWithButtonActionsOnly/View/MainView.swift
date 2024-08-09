@@ -30,8 +30,8 @@ struct MainView: View {
                             }
                         }
 
-                default:
-                    Text(item.title)
+                case .naviPaging:
+                    NaviView()
                         .tabItem {
                             VStack {
                                 Image(systemName: item.image)
